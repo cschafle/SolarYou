@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/neptune_colored"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please input what weight you would like to convert before choosing a planet:"
+        />
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:inputType="number" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please input what age you would like to convert in years and days:"
+        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Years:"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/year"
+            android:inputType="number"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Days:"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/day"
+            android:inputType="number"
+            android:layout_toLeftOf="@id/year"/>
+    </LinearLayout>
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/RadioGroupEarth">
+        <RadioButton android:id="@+id/radio_Mercury"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Mercury"/>
+        <RadioButton android:id="@+id/radio_venus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Venus"/>
+        <RadioButton android:id="@+id/radio_earth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/earth"/>
+        <RadioButton android:id="@+id/radio_mars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mars"/>
+        <RadioButton android:id="@+id/radio_jupiter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jupiter"/>
+        <RadioButton android:id="@+id/radio_saturn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/saturn"/>
+        <RadioButton android:id="@+id/radio_uranus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/uranus"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/displayResults"/>
+
+
+
+</LinearLayout>

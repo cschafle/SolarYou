@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#ff000000</color>
+    <color name="list_background_pressed">#ff42998f</color>
+    <color name="list_divider">#ff040404</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="Home_Screen">#de501a66</color>
+    <color name="Home_text">#cc0a7093</color>
+    <color name="earth_colored">#cc1d9343</color>
+    <color name="mars_colored">#97f4cc10</color>
+    <color name="mercury_colored">#cc5f7e82</color>
+    <color name="venus_colored">#f5993028</color>
+    <color name="jupiter_colored">#cca3590d</color>
+    <color name="saturn_colored">#a4dcb60f</color>
+    <color name="uranus_colored">#cc498182</color>
+    <color name="neptune_colored">#cc205782</color>
+
+
+
+</resources>
